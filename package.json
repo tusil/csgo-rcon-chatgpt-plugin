@@ -1,0 +1,28 @@
+{
+  "name": "csgo-rcon-chatgpt-plugin",
+  "version": "1.0.0",
+  "description": "Express.js API for controlling a CSGO server via RCON commands.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusil/csgo-rcon-chatgpt-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusil/csgo-rcon-chatgpt-plugin/issues"
+  },
+  "homepage": "https://github.com/tusil/csgo-rcon-chatgpt-plugin#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "source-rcon-lib": "^1.0.2",
+    "winston": "^3.3.3"
+  }
+}
