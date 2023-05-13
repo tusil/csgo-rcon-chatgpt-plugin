@@ -8,7 +8,9 @@ This is a simple Express.js API that allows you to control a Counter-Strike: Glo
 
 2. Clone the repository:
 
+```
 git clone https://github.com/tusil/csgo-rcon-chatgpt-plugin.git
+```
 
 3. Navigate to the project directory:
 
