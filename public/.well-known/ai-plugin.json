@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "CS:GO RCON Controller Plugin",
+    "name_for_model": "csgo_rcon",
+    "description_for_human": "Plugin for managing a CS:GO server via RCON. You can send batch RCON commands to the server and get their responses.",
+    "description_for_model": "Plugin for managing a CS:GO server via RCON. You can send batch RCON commands to the server and get their responses.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:3000/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:3000/logo.png",
+    "contact_email": "support@example.com",
+    "legal_info_url": "http://www.example.com/legal"
+}
